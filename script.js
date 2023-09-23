@@ -11,5 +11,20 @@ const setGradient = () => {
 }
 
 color1.addEventListener("input", setGradient);
-
 color2.addEventListener("input", setGradient);
+
+const randomNumber = () => {
+	
+	//generate random hexcode for each color input
+	return `#${Math.floor(Math.random()*16777215).toString(16).padStart(6, '0').toUpperCase()}`;
+
+}
+
+const randomColors = () => {
+	
+	color1.setAttribute("value", randomNumber());
+	color2.setAttribute("value", randomNumber());
+
+	setGradient();
+	
+};
