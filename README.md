@@ -5,4 +5,4 @@ Choose colors using the inputs. The gradient appears in the background while the
 
 The "Random" button generates a new gradient from two random colors.
 
-Live application: [Background Gradient Generator](#)
+Live application: [Background Gradient Generator](https://evperkinsjr.github.io/background-gradient-generator/)
